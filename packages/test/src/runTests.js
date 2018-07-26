@@ -47,12 +47,12 @@ var tests = [
   expectAppContext("Stellar"),
   { name: "testStr", run: testStr },
   { name: "testStr2", run: testStr2 },
-  { name: "testStr3", run: testStr3 },
-  expectAppContext("Cardano (ada)"),
-  { name: "testAda", run: testAda },
-  { name: "testAda2", run: testAda2 },
-  { name: "testAda3", run: testAda3 },
-  { name: "testAda4", run: testAda4 }
+  { name: "testStr3", run: testStr3 }
+  // expectAppContext("Cardano (ada)"),
+  // { name: "testAda", run: testAda },
+  // { name: "testAda2", run: testAda2 },
+  // { name: "testAda3", run: testAda3 },
+  // { name: "testAda4", run: testAda4 }
 ];
 
 const defaultWaitForAppSwitch = step =>

@@ -22,6 +22,7 @@ async function main() {
   }
 
   await runTests(step => {
+    TransportHid.setListenDevicesDebug(true);
     if (!snapshotMode) return TransportHid;
     const recordStore = new RecordStore();
     if (step.name in records) {
